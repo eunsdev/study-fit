@@ -1,4 +1,4 @@
-package dev.euns.studyfit.global.common;
+package dev.euns.studyfit.global.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;

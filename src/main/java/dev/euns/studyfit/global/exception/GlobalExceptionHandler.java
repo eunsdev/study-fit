@@ -1,6 +1,6 @@
-package dev.euns.studyfit.global.common.exception;
+package dev.euns.studyfit.global.exception;
 
-import dev.euns.studyfit.global.common.BaseResponse;
+import dev.euns.studyfit.global.response.BaseResponse;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

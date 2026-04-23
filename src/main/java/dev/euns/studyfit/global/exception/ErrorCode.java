@@ -1,4 +1,4 @@
-package dev.euns.studyfit.global.common.exception;
+package dev.euns.studyfit.global.exception;
 
 public interface ErrorCode {
     int getStatus();
