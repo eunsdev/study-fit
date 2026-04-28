@@ -15,7 +15,7 @@ public class GlobalExceptionHandler {
         response.setStatus(errorCode.getStatus());
 
         return BaseResponse.error(
-                errorCode.getCode(),
+                errorCode.getStatus(),
                 errorCode.getMessage()
         );
     }
